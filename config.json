@@ -1,0 +1,19 @@
+{
+  "city" :"Watkinsville",
+  "state" : "GA",
+  "Standard_Title": "The Oconee Enterprise",
+  "LCCN" : "sn89053667" ,
+  "Edition_Order": "1",
+  "Page_Physical_Description": "Print",
+  "Reproduction_Agency" : "Digital Library of Georgia; Athens GA",
+  "Reproduction_Agency_Code":  "gu",
+  "Reproduction_Note" : "Present",
+  "Physical_Location": "Georgia Newspaper Project; Athens GA",
+  "Physical_Location_Code" : "gnp",
+  "Batch_Name" : "oew2023",
+  "Reel_Number": "oew2023",
+  "input_file_name": "Raw_OEW_2023.xlsx",
+  "output_file_name": "OEW_2023_metadata.xlsx",
+  "input_path": "/home/lokesh/PycharmProjects/RawImgMetaData/IO Folder",
+  "output_path": "/home/lokesh/PycharmProjects/RawImgMetaData/IO Folder"
+}
