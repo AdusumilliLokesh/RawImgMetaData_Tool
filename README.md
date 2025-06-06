@@ -31,13 +31,13 @@ pip install pandas openpyxl
 
 ## Installation
 
-Download the PDF: [Installation Instructions](./docs/) for setting up the environment and installing required libraries using PyCharm.
+Download the PDF: Installation Instructions for setting up the environment and installing required libraries using PyCharm.
 
 ---
 
 ## Usage
 
-Download the PDF: [Usage Instructions](./docs/) to:
+Download the PDF: Usage Instructions to:
 
 * Configure your `config.json`
 * Prepare your raw Excel input file
