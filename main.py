@@ -53,7 +53,10 @@ headers = [
 ws.append(headers) #append headers to o/p file
 # set-up config variables
 row_count = 1
-df['Date_in_words'] = df['Date'].dt.strftime('%B %-d, %Y')
+df['Date'] = pd.to_datetime(df['Date'])
+df['Date_in_words'] = df['Date'].dt.strftime('%B %#d, %Y')
+df['Date'] = df['Date'].dt.date
+#print(str(df.loc[0,"Date"]))
 df['Date '] = pd.to_datetime(df['Date']).dt.date
 df['Formatted_Title'] = Standard_Title + ' [' + city + ' ' + state + ', ' + df['Date_in_words'] + ']'
 df['Digital_Filename'] = Reel_Number + "-"
@@ -67,8 +70,7 @@ for i, row in df.iterrows():
         ws.cell(row=row_count, column=2, value=Standard_Title)
         ws.cell(row=row_count, column=3, value=LCCN)
         ws.cell(row=row_count, column=4, value=df.loc[i, "Date_in_words"])
-        ws.cell(row=row_count, column=5, value=df.loc[i,"Date"].date())
-        print(df.loc[i,"Date"].date())
+        ws.cell(row=row_count, column=5, value=df.loc[i,"Date"])
         ws.cell(row=row_count, column=6, value=df.loc[i, "vol"])
         ws.cell(row=row_count, column=7, value=df.loc[i, "issue"])
         ws.cell(row=row_count, column=8, value=Edition_Order)
