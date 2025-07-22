@@ -45,6 +45,18 @@ Download the PDF: Usage Instructions to:
 
 ---
 
+## Auditing the Output
+
+After generating your metadata file, please consult the **Audit Manual PDF** included in the `docs/` folder to ensure the accuracy of your output. This guide walks you through:
+
+- Verifying page count against scanned files  
+- Validating dates, volume numbers, and issue numbers  
+- Correcting input errors and regenerating the final metadata file  
+
+**Note:** Auditing is highly recommended before finalizing or submitting any metadata files for archiving or publication.
+---
+
+
 ## Repository Structure
 
 ```
@@ -57,6 +69,7 @@ project_root/
 ├── docs/
 │   ├── Installation_Instructions.pdf
 │   └── Usage_Instructions.pdf
+|   └──  Audit Manual for Metadata Output Validation.pdf
 └── README.md              # This file
 ```
 
