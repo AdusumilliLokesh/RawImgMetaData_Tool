@@ -53,7 +53,7 @@ After generating your metadata file, please consult the **Audit Manual PDF** inc
 - Validating dates, volume numbers, and issue numbers  
 - Correcting input errors and regenerating the final metadata file  
 
-**Note:** Auditing is highly recommended before finalizing or submitting any metadata files for archiving or publication.
+Note: Auditing is highly recommended before finalizing or submitting any metadata files for archiving or publication.
 ---
 
 
